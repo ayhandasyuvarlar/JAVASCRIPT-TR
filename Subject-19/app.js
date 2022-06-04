@@ -1,22 +1,55 @@
+// For In ve  For of Döngüleri
 
-// Destructing
+const person = {
+    name: "Ayhan dasyuvarlar",
+    age: 21,
+    salary: 5000
+}
+
+const langs = ["python", "php", "java","javascript"]
+
+const name = "ayhan"
+
+// For In
+// Object
+for (let prop in person){
+    console.log(prop,person[prop])
+}
+// Array
+for(let index in langs){
+    console.log(index,langs[index])
+}
+
+// String
+
+for(let index in name){
+    console.log(index,name[index])
+}
+
+// for of    // sadece string ve arraylar da gezinebiliriz objeler üzerinde gezinemeyiz
+for( let prop of langs){ 
+    console.log(prop)
+}
 
 
-// Destructing After
-// let number1, number2;
-
-// arr = [100, 200, 300, 400]
-
-// number1 = arr[1]
-// number2 = arr[2]
-
-
-
-//Destructing Before
-let number3, number4;
-
-array = [100, 200, 300, 400]  
-
-[number1, number2] = array;
-
-console.log(number3,number4)
+function e(e){
+    IDBCursorWithValue.leng
+}
+function e(e){
+    IDBCursorWithValue.leng
+}
+function e(e){
+    IDBCursorWithValue.leng
+}
+function e(e){
+    IDBCursorWithValue.leng
+}
+function e(e){
+    IDBCursorWithValue.leng
+}
+function e(e){
+    IDBCursorWithValue.leng
+}
+function e(e){
+    IDBCursorWithValue.leng
+}
