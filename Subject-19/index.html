@@ -10,15 +10,27 @@
 
 <body>
     <div id="name"></div>
+    <div id="for"></div>
     <script>
-        const langs1 = [ "javascript" ,"python", "php", "java"]
-         for(let prop of langs1){
+        const langs1 = ["javascript", "python", "php", "java"]
+        for (let prop of langs1) {
             // function value() {document.getElementById("name").innerText="yükleniyor.."}
             //  setTimeout({
             //      value
             //  },1000)
-               let value = document.getElementById("name").innerHTML= langs1
-         }
+            let value = document.getElementById("name").innerHTML = langs1
+        }
+
+        // const cities = new Map()
+
+        // cities.set("Ankara", 10)
+        // cities.set("Adana", 15)
+        // cities.set("Ýstanbul", 25)
+        // cities.set("Gaziantep", 35)
+
+        // cities.forEach(function (value, key) {
+        //     return  document.getElementById("for").innerHTML = `City Name : ${key} , Code : ${value}`
+        // })
     </script>
     <script src="./app.js"></script>
 </body>

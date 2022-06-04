@@ -1,1 +1,0 @@
-// Map = her" key" için bir " value "
