@@ -18,7 +18,7 @@ emp.age = 20
 function Person() {                                                                             //
 }                                                                                               //        
 Person.prototype.test1 = function () {                                                          //        
-    document.getElementById("prototype").innerHTML = this.names +" " + this.age                   // 
+    document.getElementById("prototype").innerHTML =` ${this.names} , ${this.age}   `              // 
     console.log(this.names, this.age)                                                             //   kalıtım yani "miras alma işlemi oldu"
 }                                                                                                  // 
 function Employee(names, age) {                                                                       // 
