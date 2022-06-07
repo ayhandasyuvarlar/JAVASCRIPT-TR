@@ -14,12 +14,12 @@ UI.prototype.addFilmToUI = function (newFilm) {
 `
 }
 
-UI.prototype.clearInput = function(element1, element2 ,element3){
+UI.prototype.clearInput = function (element1, element2, element3) {
     element1.value = ""
-    element2.value=""
-    element3.value=""
+    element2.value = ""
+    element3.value = ""
 }
-UI.prototype.displayMessages = function(message, type){
+UI.prototype.displayMessages = function (message, type) {
     const cardBody = document.querySelector(".card-body")
     // Alert div to create
     const div = document.createElement("div")
@@ -27,7 +27,7 @@ UI.prototype.displayMessages = function(message, type){
     div.textContent = message
     cardBody.appendChild(div)
 
-    setTimeout(function(){
+    setTimeout(function () {
         div.remove();
-    },1000)
+    }, 1000)
 }
