@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700;1,900&display=swap');
+.card{
+    min-width:18rem;
+    float:left;
+    margin-left:10px;
+    border:none;
+    margin-top:20px;
+    border-radius:0px;
+     overflow: hidden;
+     cursor:pointer;
+
+}
+
+.card img{
+    width:100%;
+    min-height:45vh;
+    max-height:45vh;
+    object-fit:cover;
+}
+.films{
+    padding-left:5px;
+    padding:10px;
+    border-radius:10px;
+    height:300vh;
+}
+.card-text{
+    font-family: 'Lato', sans-serif;
+    margin:0px;
+    padding:5px;
+    width:21rem;
+    font-weight:bold;
+    color:white
+    }
+.card-body{
+    padding:0px;
+    margin-top:-10px;}
+.card-text span{
+    color:orangered
+}
+.title{
+    font-family: 'Baloo Da 2', cursive;
+    font-size:28px;
+    margin-top:-5vh;
+    margin-left:-18rem;
+    transform: rotate3d(1, 2.0, 20.0, 90deg);
+    color:white;
+    text-shadow: 1px 1px 4px black;
+    padding:0px;
+
+}
+.btn-primary{
+    width:20rem;
+    margin-top:20px;
+    background:orangered;
+    border:none;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight:bold;
+}
+.btn-primary:hover{
+    background:black;
+
+}
+
+.card-container{
+
+    width:22rem;
+    padding:10px;
+    border-radius:10px;
+    float:left;
+    margin-left:10px;
+    background:black;
+    min-height:85vh;
+    margin-top:10px;
+}
+.body{
+    margin-top:150px;
+    width:100%;
+}
+@media screen and (max-width:800px) {
+  .head{
+    padding:0px;
+  }
+  .card{
+        margin-left:0px;
+  }
+  .card-title{
+    font-size:30px;
+    padding:10px 0px;
+    background:black;
+    color:orangered;
+    border-radius:none !important;
+
+}
+}
+.card-title{
+    font-size:30px;
+    padding:10px 0px;
+     font-family: 'Baloo Da 2', cursive;
+    text-align:center;
+    background:black;
+    color:orangered;
+    border-radius:5px;
+
+}

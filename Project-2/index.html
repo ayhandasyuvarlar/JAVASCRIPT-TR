@@ -8,16 +8,17 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
   <title>Film Project</title>
 </head>
 
 <body>
-  <div class="container" style="margin-top:20px;">
+  <div class="container head" style="margin-top:20px;">
 
     <div class="card row">
       <div class="card-header">Film Projesi</div>
-      <div class="card-body">
+      <div class="card-body " style="margin-top: 10px;">
         <form id="film-form" name="form">
           <div class="form-row">
             <div class="form-group col-md-6">
@@ -29,26 +30,25 @@
             <div class="form-group col-md-6">
               <input class="form-control" type="text" name="url" id="url" placeholder="Film Afiş Linki">
             </div>
+            <div class="form-group col-md-6">
+              <input class="form-control" type="text" name="subject" id="subject" placeholder="Film Konusu">
+            </div>
+            <div class="form-group col-md-6">
+              <input class="form-control" type="textarea" name="textarea" id="textarea" placeholder="Film açıklama">
+            </div>
+            <div class="form-group col-md-6">
+              <input class="form-control" type="text" name="date" id="date" placeholder="Çıkış tarihi">
+            </div>
           </div>
           <button type="submit" class="btn btn-danger">Film Ekleyin</button>
         </form>
-        <hr>
-
-
-
       </div>
-
-      <div class="card-body">
-        <hr>
-        <h5 class="card-title" id="films-title">Filmler</h5>
-
-        <hr>
-        <div class="container" id="films" style="width: 18rem;">
-
+      <div class="card-body body">
+        <h5 class="card-title" id="films-title">Movies</h5>
+        <div class="container films" id="films">
         </div>
-        <hr>
-        <a id="clear-films" class="btn btn-dark" href="#">Tüm Filmleri Temizleyin</a>
       </div>
+      <a id="clear-films" class="btn btn-dark" style="width:27% ; margin-bottom: 150px; margin-left: 40px; margin-top: 100px;" href="#">Tüm Filmleri Temizleyin</a>
     </div>
 
   </div>
