@@ -19,7 +19,7 @@ function addFilm(e){
     const director = directorElement.value
     const url = urlElement.value
     if(title === "" || director === "" || url===""){
-      console.log("başarısız")
+      ui.displayMessages("Tüm alanları doldurun" , "danger")
     }
     else{
         //New Film
@@ -27,6 +27,7 @@ function addFilm(e){
         ui.addFilmToUI(newFilm); // Frontend film add
         
     }
+    ui.displayMessages("Film Başarıyla eklendi" , "success")
     ui.clearInput(titleElement,urlElement,directorElement);
 
     e.preventDefault();
