@@ -59,3 +59,11 @@ UI.prototype.loadAllFilms = function (films) {
      `
     })
 }
+
+UI.prototype.clearAllFilmsFromUI = function(){
+    const filmsList = document.getElementById("films")
+    while(filmsList.firstElementChild !== null){
+            filmsList.firstElementChild.remove();
+    }
+    
+}

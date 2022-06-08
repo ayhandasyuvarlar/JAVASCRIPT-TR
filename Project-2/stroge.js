@@ -18,3 +18,6 @@ Storage.prototype.getFilmsFromStorage = function () {
     }
     return films;
 }
+Storage.prototype.clearAllFilmsFromStorage = function(){
+    localStorage.removeItem("films")
+}
