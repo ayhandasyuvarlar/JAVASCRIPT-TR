@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Ayhan Daşyuvarlar",
+        "department": "Yazılım",
+        "salary": 6000
+    },
+    {
+        "name":"Mehmet Kiraz",
+        "department": "Bilişim",
+        "salary": 10000
+    },
+    {
+        "name":"Ali Cengiz",
+        "department": "Pazarlama",
+        "salary": 5000
+    }
+]
