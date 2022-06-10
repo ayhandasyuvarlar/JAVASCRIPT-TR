@@ -1,0 +1,20 @@
+[
+  {
+    "Fullname": "Ayhan Daşyuvarlar",
+    "City": "Gaziantep",
+    "Age" : 21,
+    "Hobies":"Reading Books ,Software , Game Playing"
+  },
+  {
+    "Fullname": "Mehmet Ali Kırca",
+    "City": "Ankara",
+    "Age" : 25,
+    "Hobies":"Reading Books ,Software , Game Playing"
+  },
+  {
+    "Fullname": "Furkan Gül",
+    "City": "İstanbul",
+    "Age" :  31,
+    "Hobies":"Reading Books ,Software , Game Playing"
+  }
+]
