@@ -12,7 +12,7 @@ function getTextFile() {
 function getJsonFile(){
         fetch("example.json")
         .then(response =>{
-            return response.text()
+            return response.json()
         })
         .then(data =>{
             console.log(data)
@@ -22,4 +22,19 @@ function getJsonFile(){
         })
 }
 
-getJsonFile();
+//getJsonFile();
+
+
+function getExternalApı(){
+    fetch("https://jsonplaceholder.typicode.com/albums")
+    .then(response =>{
+        return response.json()
+    })
+    .then(data =>{
+        console.log(data)
+    })
+    .catch(err =>{
+        console.error(err)
+    })
+}
+getExternalApı();
