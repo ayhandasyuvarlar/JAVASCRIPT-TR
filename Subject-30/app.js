@@ -9,7 +9,7 @@ class Request {
     })
   }
   //post request
-  post(url, data) {
+  post(url, data){
     return new Promise((resolve, reject) => {
       fetch(url, {
         method: 'POST',
